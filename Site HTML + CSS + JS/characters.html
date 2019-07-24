@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Ustawiamy kodowanie tak, aby czytało polskie znaki.-->
+		<meta charset="utf-8">
+		<!--Link do źródła z biblioteką jQuery.-->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--Ścieżka do skryptu w CSS.-->
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<!--Ścieżka do bootstrapa.-->
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<!--Ciało strony.-->
+	<body id = "charactersBody">
+		<!--Nagłówek z tytułem.-->
+		<header>
+			<h1 id="charactersTitle">Characters</h1>
+		</header>
+		<!--Kontener z przyciskiem powrotu do menu.-->
+		<div class="button noBootstrapButton" id="charactersButton">
+			<span data-title="Fare-thee-well !">Forsake</span>
+		</div>
+		<!--Główna treść strony.-->
+		<main>
+			<!--Sekcja ze zdjęciami postaci.-->
+			<section class="charactersSection">
+				<!--Kontener na zdjęcia postaci.-->
+				<div class="container">
+					<!--Kontener odpowiadający za rzędy w bootstrapie.-->
+					<div class="row">
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/analystMan.png" alt="Analysis Man">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Professor of analysis (Man)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/analystWoman.png" alt="Analysis Woman">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Professor of analysis (Woman)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/algebraistMan.png" alt="Algebra Man">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Professor of algebra (Man)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/algebraistWoman.png" alt="Algebra Woman">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Professor of algebra (Woman)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/programmerMan.png" alt="Programmer Man">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Professor of programming (Man)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/programmerWoman.png" alt="Programmer Woman">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Professor of programming (Woman)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/humanistMan.png" alt="Humanis Man">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Humanist professor (Man)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/humanistWoman.png" alt="Humanist Woman">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Humanist professor (Woman)</figcaption>
+							</figure>
+						</div>
+						<!--Kontener na postać zojmującą 1/3 strony przy max. rozmiarze.-->
+						<div class="col-sm-6 col-md-4">
+							<!--Figura do której ładuje się zdjęcie postaci.-->
+							<figure>
+								<!--Załadowanie zdjęcia postaci.-->
+								<img src="Images/characters/studentsForeman.png" alt="Student's Foreman">
+								<!--Nazwa klasy postaci pod figurą.-->
+								<figcaption>Student's foreman</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!--Ścieżka do skryptu w JS.-->
+		<script src="js/script.js"></script>
+		<!--Ścieżka do bootstrapa.-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<!--Ścieżka do bootstrapa.-->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

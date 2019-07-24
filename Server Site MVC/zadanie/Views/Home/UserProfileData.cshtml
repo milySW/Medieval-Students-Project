@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "UserProfileData";
+}
+
+<div id="user-name"><h1>@ViewBag.UserName</h1></div>
+<div id="profile-data">
+    
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div id ="profile-data" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                
+                <img id="profile-image" src="@Url.Content(ViewBag.Photo)" alt="@ViewBag.UserName" />
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <p class="info">Name: @ViewBag.Name</p>
+                <p class="info">Surname: @ViewBag.Surname</p>
+                <p class="info">Favourite character: @ViewBag.Character</p>
+                <p class="info">Average: @ViewBag.Average</p>
+                <p class="info">Record: @ViewBag.MaximumPoints</p>
+                <p class="info">Games: @ViewBag.Games</p>
+            </div>
+        </div>
+    </div>
+</div>

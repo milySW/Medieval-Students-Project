@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>zadanie.Api</name>
+    </assembly>
+    <members>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.Get">
+            <summary>
+            Get list of subsites.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.CharactersGet">
+            <summary>
+            Get propositions of new characters sent by users.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.CharactersPost(zadanie.Api.Models.NewCharacter)">
+            <summary>
+            Post proposition of the new character. Maybe your character will be next in MedievalStudents game.
+            </summary>
+            <param name="character"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.CharacterDelete(System.String)">
+            <summary>
+            Delete character proposition by id.
+            </summary>
+            <param name="characterId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.CharacterGet(System.String)">
+            <summary>
+            Get data of user who created character propostion.
+            </summary>
+            <param name="characterId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.CharacterPatch(System.String,zadanie.Api.Models.NewCharacter)">
+            <summary>
+            Change posted data about character by id.
+            </summary>
+            <param name="characterId"></param>
+            <param name="character"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.CharactersImageGet(System.String)">
+            <summary>
+            Get character image (if posted).
+            </summary>
+            <param name="characterId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.CharactersImageDelete(System.String)">
+            <summary>
+            Delete image of character.
+            </summary>
+            <param name="characterId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.IssuesGet">
+            <summary>
+            Get list with all topics and tags.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.IssuesPost(zadanie.Api.Models.Issue)">
+            <summary>
+            Post new issue.
+            </summary>
+            <param name="issue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.IssuesGet(System.String)">
+            <summary>
+            Get list of messages in topic by topic id.
+            </summary>
+            <param name="issueId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.IsuesPost(System.String,zadanie.Api.Models.Message)">
+            <summary>
+            Post message in topic.
+            </summary>
+            <param name="issueId"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.IssueDelete(System.String)">
+            <summary>
+            Delete whole topic by topic id.
+            </summary>
+            <param name="issueId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.IsuesMessagePost(System.String,System.String)">
+            <summary>
+            Delete message by message id.
+            </summary>
+            <param name="issueId"></param>
+            <param name="messageId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Controllers.MedievalStudentsController.IssuesMessageGet(System.String,System.String)">
+            <summary>
+            Get message by message id.
+            </summary>
+            <param name="issueId"></param>
+            <param name="messageId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:zadanie.Api.Models.Base64FileJsonConverter">
+            <summary>
+            Class converting Base64 string to Json.
+            </summary>
+        </member>
+        <member name="M:zadanie.Api.Models.Base64FileJsonConverter.CanConvert(System.Type)">
+            <summary>
+            Check if converting possible.
+            </summary>
+            <param name="objectType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Models.Base64FileJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            Read Json file.
+            </summary>
+            <param name="reader"></param>
+            <param name="objectType"></param>
+            <param name="existingValue"></param>
+            <param name="serializer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:zadanie.Api.Models.Base64FileJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            Write Json file.
+            </summary>
+            <param name="writer"></param>
+            <param name="value"></param>
+            <param name="serializer"></param>
+        </member>
+        <member name="T:zadanie.Api.Models.Character">
+            <summary>
+            Class with character info.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Character.Id">
+            <summary>
+            Character id.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Character.CharacterName">
+            <summary>
+            Character name.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Character.CharacterClass">
+            <summary>
+            Character class.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Character.CharacterSex">
+            <summary>
+            Character sex.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:zadanie.Api.Models.Character.CharacterHistory" -->
+        <member name="T:zadanie.Api.Models.Issue">
+            <summary>
+            Class with issue.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Issue.Id">
+            <summary>
+            Issue id.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Issue.User">
+            <summary>
+            User who created issue info.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Issue.TopicInfo">
+            <summary>
+            Issue name and tags.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Issue.ListOfMessages">
+            <summary>
+            List of comments in issue.
+            </summary>
+        </member>
+        <member name="T:zadanie.Api.Models.Message">
+            <summary>
+            Class with message text and user info
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Message.Id">
+            <summary>
+            Message id.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Message.User">
+            <summary>
+            User info.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Message.MessageText">
+            <summary>
+             Message text.
+            </summary>
+        </member>
+        <member name="T:zadanie.Api.Models.NewCharacter">
+            <summary>
+            Class with description of new character.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.NewCharacter.Id">
+            <summary>
+            New character id.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.NewCharacter.User">
+            <summary>
+            User info.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.NewCharacter.PostedCharacter">
+            <summary>
+            Character info.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.NewCharacter.ImageData">
+            <summary>
+            Image converted to Base64 string (example converter: https://www.base64-image.de).
+            Remember to delete 'data:image/png;base64,' prefix.
+            </summary>
+        </member>
+        <member name="T:zadanie.Api.Models.Topic">
+            <summary>
+            Class with topic name and tags.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Topic.Id">
+            <summary>
+            Topic id.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Topic.TopicName">
+            <summary>
+            Topic name.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.Topic.Tags">
+            <summary>
+            Topic tags.
+            </summary>
+        </member>
+        <member name="T:zadanie.Api.Models.UserClass">
+            <summary>
+            Class with user info.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.UserClass.FirstName">
+            <summary>
+            User first name.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.UserClass.LastName">
+            <summary>
+            User Last name.
+            </summary>
+        </member>
+        <member name="P:zadanie.Api.Models.UserClass.Email">
+            <summary>
+            User email.
+            </summary>
+        </member>
+        <member name="T:zadanie.Api.Startup">
+            <summary>
+            Startup class.
+            </summary>
+        </member>
+        <member name="M:zadanie.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+             This method gets called by the runtime. Use this method to add services to the container.
+             For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:zadanie.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CharacterViewModel>
+@{
+    ViewData["Title"] = "GetCharacterByClass";
+}
+
+<!--Strona z postaciami danej klasy-->
+
+<body id="charactersBody">
+    <h1 id="titleText">@Model.FirstOrDefault().CharacterRawClass</h1>
+    @{ if (Model.FirstOrDefault().CharacterRawClass == "Professor of algebra")
+        {
+            <p id="story">
+                Ancient magicians, who know how to change the behavior of the environment.
+                They could easily change space and avoid flood or earthquakes.
+            </p>
+        }
+        else if (Model.FirstOrDefault().CharacterRawClass == "Professor of analysis")
+        {
+            <p id="story">
+                Powerful magician, the terror for humanist students. Every student has to pass his
+                exams to become a true craftsman. He can use his incomprehensible magic to decrease the death indicator.
+            </p>
+        }
+        else
+        {
+            <p id="story">
+                There were no computers in ancient times. Despite it, there were people who could
+                reach or secure every place in the kingdom using magic. Every information was passed
+                through them. Those cunning and bright people were known as spies or programmers.
+                Very useful when you want to avoid fights or feel safety.
+            </p>
+        }
+    }
+    <section class="charactersSection">
+        <!--Kontener na zdjęcia postaci.-->
+        <div class="container">
+            @foreach (var character in Model)
+            {
+                <div class="col-sm-6 col-md-3">
+                    <!--Zdjęcia postaci-->
+                    <img src="@Url.Content(character.Photo)" alt="@character.CharacterRawClass" />
+
+                    <!--Wiedza postaci-->
+                    <h3>Knowledge: @character.Knowledge</h3>
+
+                    <!--Energia życiowa postaci-->
+                    <h3>Life energy: @character.LifeEnergy</h3>
+                </div>
+            }
+        </div>
+    </section>
+
+</body>

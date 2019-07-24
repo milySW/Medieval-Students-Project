@@ -1,0 +1,15 @@
+﻿@model HashSet<string>
+@{
+    ViewData["Title"] = "GetListOfClasses";
+}
+
+<!--Strona z listą klas dostępnych w grze.-->
+
+<h2>List of classes</h2>
+
+<ul class="allLinks">
+    @foreach (var rawClass in Model)
+    {
+        <li>@Html.ActionLink(rawClass, "GetCharacterByClass", "Home", new { classOfCharacter = rawClass }, null)</li>
+    }
+</ul>

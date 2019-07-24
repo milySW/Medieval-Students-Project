@@ -1,0 +1,16 @@
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\bin\Release\zadanie.exe.config
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\bin\Release\zadanie.exe
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\bin\Release\zadanie.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormBattlefield.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormBuildings.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormBuildingInfo.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormGame.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormGameOver.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormMessageInBattle.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormResources.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.FormSelectCharacter.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.Properties.Resources.resources
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.csproj.GenerateResource.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.exe
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab2\zadanie\zadanie\obj\Release\zadanie.pdb

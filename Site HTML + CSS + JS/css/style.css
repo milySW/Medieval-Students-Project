@@ -1,0 +1,862 @@
+/*Ustalamy kodowanie.*/
+@charset "UTF-8";
+/*Klasa, w której będzie nagłówek strony.*/
+.container {
+  /*Rozciągnij na szerokość*/
+  display: flex;
+  /*Ustaw elementy w centrum (wysokość).*/
+  align-items: center;
+  /*Ustaw elementy w centrum (szerokość).*/
+  justify-content: center;
+  /*Ustaw minimalną wysokość kontenera.*/
+  min-height: 100vh;
+}
+
+/*Ustalenie parametrów wspólnych dla każdej strony
+oraz przycisku. Ciało strony characters.html ustawione
+po id, ponieważ nadpisywał ją bootstrap.*/
+body, #charactersBody {
+  /*Usatalamy czcionkę.*/
+  font-family: Monotype Corsiva, serif;
+  background-color: #26282E;
+  /*To co wyjdzie poza stronę nie zostanie pokazane.*/
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  position: relative;
+}
+
+/*Gdy kursor na ciele lub na linku.*/
+body:hover, a:hover, a{
+  /*Ustawiamy customowy kursor.*/
+  cursor: url("../Images/cursor.png"), auto;
+}
+
+/*Nieodwiedzony link z tagu 'a'.*/
+a:link {
+  color: #209781;
+  text-decoration: none;
+}
+
+/*Odwiedzony link z tagu 'a'.*/
+a:visited {
+  color: #209781;
+}
+
+/*Link z tagu 'a' w trakcie kliknięcia.*/
+a:active {
+  color: #209781;
+}
+
+/*Link z tagu 'a', gdy jest na nim kursor.*/
+a:hover {
+  color: #E9B64A;
+}
+
+/*Parametry dla tagu 'h1' oraz elementu 'charactersTitle',
+który został nadpsany przez bootstrapa.*/
+h1, #charactersTitle {
+  font-size: 67px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/*Parametry tagu 'p'.*/
+p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+/*CSS do pliku index.html.*/
+
+/*Id ciała strony z menu.*/
+#indexBody {
+  background: url("../Images/indexBody.png");
+  /*Tło ma pokryć cały ekran (Safari i Chrome).*/
+  -webkit-background-size: cover;
+  /*Tło ma pokryć cały ekran (Mozilla).*/
+  -moz-background-size: cover;
+  /*Tło ma pokryć cały ekran (Opera).*/
+  -o-background-size: cover;
+  /*Tło ma wykorzystać 100% załadowanego zdjęcia.*/
+  background-size: 100%;
+}
+
+/*Przycisk, po którego kliknięciu przechodzimy do choiceMenu.html.*/
+#clickToStart {
+  font-size: 60px;
+  position: absolute;
+  text-align: center;
+  top: 570px;
+  left: 37vw;
+  color: #FFD530;
+}
+
+/*Kontener zawierający litery z napisu 'Click to start'.*/
+#clickToStart span {
+  position: relative;
+  /*Przezroczystość*/
+  opacity: 0;
+  top: 1em;
+  /*Włączamy animację stworzoną niżej.*/
+  animation: animateOverlay 1s ease-in-out forwards;
+}
+
+/*Co czwarte dziecko rozpoczynając od pierwszego.*/
+#clickToStart span:nth-child(4n) {
+  /*Animacja włącza się po 1s.*/
+  animation-delay: 1s;
+}
+
+/*Co czwarte dziecko rozpoczynając od drugiego.*/
+#clickToStart span:nth-child(4n+1) {
+  /*Animacja włącza się po 2s.*/
+  animation-delay: 2s;
+}
+
+/*Co czwarte dziecko rozpoczynając od czwartego.*/
+#clickToStart span:nth-child(4n+3) {
+  /*Animacja włącza się po 3s.*/
+  animation-delay: 3s;
+}
+
+/*Co czwarte dziecko rozpoczynając od trzeciego.*/
+#clickToStart span:nth-child(4n+2) {
+  /*Animacja włącza się po 4s.*/
+  animation-delay: 4s;
+}
+
+/*Styl tytułu*/
+#indexTitle {
+  /*Ustawiamy prawy margines.*/
+  margin-right: 1rem;
+  /*Wyświetl jako blok elementów.*/
+  display: inline-block;
+  /*Wielkość czcionki*/
+  font-size: 6rem;
+  color: #6C5432;
+  /*Wysokość, na której jest nasz tytuł*/
+  line-height: 3.77;
+  /*Przesuwamy tytuł o 40remów w dół.*/
+  transform: translateX(-120rem);
+  /*Włączamy animację 'up' stworzoną niżej.*/
+  animation: up 800ms linear forwards;
+  /*Ustawiamy położenie elementu na stosie innych elementów.*/
+  z-index: 1;
+  /*Ustawiamy cieniowanie.*/
+  text-shadow: 0 1px 0 #aaaaaa,
+  0 2px 0 #090909,
+  0 3px 0 #000000,
+  0 4px 0 #090909,
+  0 5px 0 #000000,
+  0 6px 1px rgba(0, 0, 0, 0.1),
+  0 0 5px rgba(0, 0, 0, 0.1),
+  0 1px 3px rgba(0, 0, 0, 0.3),
+  0 3px 5px rgba(0, 0, 0, 0.2),
+  0 5px 10px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(127, 0, 0, 0.6),
+  0 20px 20px rgba(0, 0, 0, 0.15);
+  /*Ładujemy tło tytułu.*/
+  background-image: url("../Images/sword.png");
+  /*Ustawiamy położenie  oraz rozmiar tytułu.*/
+  background-position-y: 72%;
+  overflow: hidden;
+  height: 570px;
+  width: 1350px;
+  /*Tło ma pokryć cały ekran (Safari i Chrome).*/
+  -webkit-background-size: cover;
+  /*Tło ma pokryć cały ekran (Mozilla).*/
+  -moz-background-size: cover;
+  /*Tło ma pokryć cały ekran (Opera).*/
+  -o-background-size: cover;
+  /*Ładujemy tło w wymiarze 1350x1050.*/
+  background-size: 1350px 1050px;
+  text-align: center;
+}
+
+/*Ustawiamy położenie góry tytułu pred animacją.*/
+#indexTitle::before {
+  top: 1.4rem;
+}
+
+/*Ustawiamy położenie dołu tytułu po animacji.*/
+#indexTitle::after {
+  bottom: 0rem;
+}
+
+/*Kontener z tytułem.*/
+.title-container {
+  /*Ukrywamy zawartość kontenera żeby nie było widać przesunięcia w bok.*/
+  overflow: hidden;
+}
+
+/*Kontener z obrazkiem na przycisku do włączania muzyki.*/
+#soundOnOff {
+  /*Ustalamy rozmiary.*/
+  width: 50px;
+  height: 50px;
+  /*Ładujemy zdjęcie.*/
+  background-image: url("../Images/sound.png");
+  /*Tło ma pokryć cały ekran (Safari i Chrome).*/
+  -webkit-background-size: cover;
+  /*Tło ma pokryć cały ekran (Mozilla).*/
+  -moz-background-size: cover;
+  /*Tło ma pokryć cały ekran (Opera).*/
+  -o-background-size: cover;
+  /*Tło ma wykorzystać 100% załadowanego zdjęcia.*/
+  background-size: 100%;
+  position: absolute;
+  top: 90%;
+}
+
+/*Jeśli przeglądraka to Mozilla.*/
+@-moz-document url-prefix() {
+  /*Przesuwamy przycisk 'clickToStart' do góry
+  (Problemy z kompatybilnością, na Mozilli przycisk był za nisko.)*/
+  #clickToStart {
+    z-index: 1;
+  }
+  /*Przesuwamy zdjęcie obrazka z przycisku na dźwięk
+  (Na Mozilli czasem się nie pojawiał).*/
+  #soundOnOff {
+    z-index: 99999999;
+    position: fixed;
+  }
+}
+
+/*Kontener z ptakami (Odpowiada za pojedyncze klatki w animacji).*/
+.bird {
+  /*Ładujemy obrazek z fazami ruchu ptaka.*/
+  background-image: url("../Images/bird.svg");
+  /*Ustawiamy rozmiary ptaka.*/
+  background-size: auto 100%;
+  width: 88px;
+  height: 125px;
+  /*Informujemy, że tło jest elementem, który będzie zmieniay (optymalizacja).*/
+  will-change: background-position;
+  /*Ustawiamy animację stworzoną niżej.*/
+  animation-name: fly-cycle;
+  /*Ustalamy ilość klatek.*/
+  animation-timing-function: steps(10);
+  /*Zapętlamy animację.*/
+  animation-iteration-count: infinite;
+}
+
+/*Kontener z pierwszym ptakiem (Odpowiada za pojedyncze fazy ruchu).*/
+.bird--one {
+  /*Czas trwania animacji to 1s.*/
+  animation-duration: 1s;
+  /*Animacja rozpocznie się w miejscu, które osiąga po 0.5s.*/
+  animation-delay: -0.5s;
+}
+
+/*Kontener z drugim ptakiem (Odpowiada za pojedyncze fazy ruchu).*/
+.bird--two {
+  /*Czas trwania animacji to 0.9s.*/
+  animation-duration: 0.9s;
+  /*Animacja rozpocznie się w miejscu, które osiąga po 0.75s.*/
+  animation-delay: -0.75s;
+}
+
+/*Kontener z trzecim ptakiem (Odpowiada za pojedyncze fazy ruchu).*/
+.bird--three {
+  /*Czas trwania animacji to 1.25s.*/
+  animation-duration: 1.25s;
+  /*Animacja rozpocznie się w miejscu, które osiąga po 0.25s.*/
+  animation-delay: -0.25s;
+}
+
+/*Kontener z czwartym ptakiem (Odpowiada za pojedyncze fazy ruchu).*/
+.bird--four {
+  /*Czas trwania animacji to 1.1s.*/
+  animation-duration: 1.1s;
+  /*Animacja rozpocznie się w miejscu, które osiąga po 0.5s.*/
+  animation-delay: -0.5s;
+}
+
+/*Kontener z ptakami (Odpowiada za wszystkie klatki w animacji).*/
+.bird-container {
+  /*Ustawiamy pozycję ptaka.*/
+  position: absolute;
+  top: 3%;
+  left: -10%;
+  transform: scale(0) translateX(-10vw);
+  /*Informujemy, że zmieniającym się parametrem będzie 'transform'.*/
+  will-change: transform;
+  /*Ustawiamy animację stworzoną poniżej.*/
+  animation-name: fly-right-one;
+  /*Ustawiamy prędkość na stałą.*/
+  animation-timing-function: linear;
+  /*Zapętlamy animację.*/
+  animation-iteration-count: infinite;
+}
+
+/*Kontener z pierwszym ptakiem (Odpowiada za wszystkie fazy ruchu).*/
+.bird-container--one {
+  /*Czas trwania animacji to 15s.*/
+  animation-duration: 15s;
+  /*Animacja rozpocznie się od razu.*/
+  animation-delay: 0;
+}
+
+/*Kontener z drugim ptakiem (Odpowiada za wszystkie fazy ruchu).*/
+.bird-container--two {
+  /*Czas trwania animacji to 16s.*/
+  animation-duration: 16s;
+  /*Animacja rozpocznie się po 1s.*/
+  animation-delay: 1s;
+}
+
+/*Kontener z trzecim ptakiem (Odpowiada za wszystkie fazy ruchu).*/
+.bird-container--three {
+  /*Czas trwania animacji to 14.6s.*/
+  animation-duration: 14.6s;
+  /*Animacja rozpocznie się po 9.5s.*/
+  animation-delay: 9.5s;
+}
+
+/*Kontener z czwartym ptakiem (Odpowiada za wszystkie fazy ruchu).*/
+.bird-container--four {
+  /*Czas trwania animacji to 16s.*/
+  animation-duration: 16s;
+  /*Animacja rozpocznie się po 10.25s.*/
+  animation-delay: 10.25s;
+}
+
+/*CSS do pliku choiceMenu.html.*/
+
+/*Kontener na zdjęcia będące linkami do podstron.*/
+.choiceMenuContainer {
+  /*Element kontenera będą dopasowywać swoją Wielkość do rozmiau okna.*/
+  display: flex;
+  /*Środkujemy elementy kontenera.*/
+  align-items: center;
+  justify-content: center;
+  /*Ustawiamy wysokość kontenera na aktualną wysokość strony.*/
+  min-height: 100vh;
+}
+
+/*Kontener odpowiedzialny za pojedyncze zdjęcia.*/
+.show {
+  position: relative;
+  /*Ustawiamy cieniowanie.*/
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
+  /*Ustawiamy wielkość i położenie.*/
+  width: 15rem;
+  height: 20rem;
+  margin: 0 1rem;
+  /*Ustawiamy podwójne obramowanie.*/
+  border: double;
+  /*Ustawiamy parametry tła.*/
+  background-color: #AF905A;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*Ustalamy czas przejścia w trybie ease.*/
+  transition: 0.3s ease;
+}
+
+/*Kontener ze zdjęciem w końcowej fazie.*/
+.show::after {
+  /*Dodajemy pustego stringa.*/
+  content: "";
+  /*Ustawiamy położenie oraz rozmiar.*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  /*Ustawiamy parametry obramowania.*/
+  border-style: solid;
+  border-width: 0 0 55px 55px;
+  border-color: transparent transparent #39281E transparent;
+  /*Ustawiamy czas przejścia szerokości obramowmania.*/
+  transition: border-width 250ms;
+}
+
+/*Kontener ze zdjęciem w początkowej fazie.*/
+.show::before {
+  font-size: 18px;
+  color: #209781;
+  /*Tekst całkowicie przezroczysty.*/
+  opacity: 0;
+  position: absolute;
+  /*Ustawiamy parametry położenia.*/
+  bottom: 12px;
+  right: 12px;
+  z-index: 2;
+  /*Czas przejścia, przy zmianie przezroczystości.*/
+  transition: opacity 300ms;
+  /*Wszystkie białe znaki zostaną zachowane.*/
+  white-space: pre-wrap;
+  /*Tekst wyrównany do prawej.*/
+  text-align: right;
+}
+
+/*Kontener ze zdjęciem w fazie początkowej z kursorem na sobie.*/
+.show:hover::before {
+  /*Tekst staje się widoczny.*/
+  opacity: 1;
+  /*Czas przejścia, przy zmianie przezroczystości.*/
+  transition: opacity 150ms;
+}
+
+/*Kontener ze zdjęciem w fazie końcowej z kursorem na sobie.*/
+.show:hover::after {
+  /*Zwiększenie obramowania (mały trójkącik w prawym dolnym rogu) dwukrotnie.*/
+  border-width: 0 0 110px 110px;
+}
+
+/*Zdjęcie będące linkiem do strony characters.html.*/
+#show1 {
+  background-image: url("../Images/characters1.png");
+}
+
+/*Zdjęcie będące linkiem do strony images.html.*/
+#show2 {
+  background-image: url("../Images/screens1.png");
+  background-size: 100%;
+}
+
+/*Zdjęcie będące linkiem do strony game.html.*/
+#show3 {
+  background-image: url("../Images/game1.png");
+}
+
+
+/*Zdjęcie będące linkiem do strony characters.html w fazie początkowej.*/
+#show1::before {
+  content: "Characters";
+}
+
+/*Zdjęcie będące linkiem do strony images.html w fazie początkowej.*/
+#show2::before {
+  content: "Gallery";
+}
+
+/*Zdjęcie będące linkiem do strony game.html w fazie początkowej.*/
+#show3::before {
+  content: "Game";
+}
+
+/*Zdjęcie będące linkiem do strony characters.html po najechaniu kursorem.*/
+#show1:hover {
+  /*Ustawiamy przezroczystość na 100%.*/
+  opacity: 1;
+  /*Ładujemy nowy obrazek.*/
+  background-image: url("../Images/characters2.png");
+}
+
+/*Zdjęcie będące linkiem do strony images.html po najechaniu kursorem.*/
+#show2:hover {
+  /*Ustawiamy przezroczystość na 100%.*/
+  opacity: 1;
+  /*Ładujemy nowy obrazek.*/
+  background-image: url("../Images/screens2.png");
+  background-size: 100%;
+}
+
+/*Zdjęcie będące linkiem do strony game.html po najechaniu kursorem.*/
+#show3:hover {
+  /*Ustawiamy przezroczystość na 100%.*/
+  opacity: 1;
+  /*Ładujemy nowy obrazek.*/
+  background-image: url("../Images/game2.png");
+}
+
+/*CSS do pliku game.html.*/
+
+/*Kontener na karty do gry.*/
+.board {
+  /*Ustawiamy wymiary oraz położenie.*/
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow-y: auto;
+  margin-top: 10vh;
+  position: relative;
+}
+
+/*Przycisk restartujący grę po jej zakończeniu.*/
+#restart {
+  /*Ustawiamy na niewidoczny.*/
+  visibility: hidden;
+  /*Ustawiamy położenie.*/
+  z-index: 100;
+  transform: translateY(5rem);
+  margin: 3px;
+  position: absolute;
+  left: 40%;
+  /*Ustawiamy obramowanie.*/
+  border: 4px solid #51c8b2;
+  border-radius: 4px;
+  /*Ustawiamy jasność.*/
+  filter: brightness(70%);
+  background-color: #646875;
+}
+
+/**/
+.cardA {
+  /**/
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin: 3px;
+  /**/
+  background-image: url("../Images/karta.png");
+  background-size: 100%;
+  background-position: center;
+  /**/
+  border: 4px solid #e9b64a;
+  border-radius: 4px;
+  /**/
+  filter: brightness(100%);
+  /**/
+  transition: all 0.3s ease-in-out;
+}
+
+/*Kontener reprezentujący pojedyncze karty.*/
+.card {
+  /*Ustawiamy położenie.*/
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin: 3px;
+  /*Ustawiamy tło.*/
+  background-image: url("../Images/karta.png");
+  background-size: 100%;
+  background-position: center;
+  /*Ustawiamy obramowanie.*/
+  border: 4px solid #51c8b2;
+  border-radius: 4px;
+  /*Ustawiamy jasność.*/
+  filter: brightness(70%);
+  /*Ustawiamy czas we wszystkich opcjach transition na 0.3s.*/
+  transition: all 0.3s ease-in-out;
+}
+
+/*Karta po najechaniu kursorem.*/
+.card:hover {
+  border: 4px solid #e9b64a;
+  filter: brightness(100%);
+}
+
+/*Kontener z punktami.*/
+.score {
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+/*CSS do pliku characters.html.*/
+
+/*Sekcja na postaci w siatce bootstrapowej.*/
+.charactersSection {
+  margin-top: 100px;
+  text-align: center;
+}
+
+/*Zdjęcia w sekcji 'charactersSection'.*/
+.charactersSection img {
+  width: 50%;
+  height: auto;
+}
+
+/*Podpisy pod figurami w sekcji 'charactersSection'.*/
+.charactersSection figcaption {
+  margin-top: 25px;
+}
+
+/*Ciało strony characters.html.*/
+#charactersBody {
+  /*Odblokowujemy przewijanie wzdłuż osi Y.*/
+  overflow-y: auto;
+}
+
+/*Przycisk powrotu do menu na stronie characters.html.*/
+#charactersButton {
+  /*Pojawienie się paska do scrollowania przesunęło przycisk,
+   więc przesuwamy go o 1vw w prawo.*/
+  transform: translateX(1vw);
+}
+
+/*CSS do pliku images.html.*/
+
+/*Sekcja na zdjęcia z galerii.*/
+.slideshow{
+  height: 700px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/*Zewętrzny kontener na zdjęcia z galerii.*/
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+  /*Perspektywa, z której widzimy galerię.*/
+  perspective: 1000px;
+  position: relative;
+  padding-top: 80px;
+}
+
+/*Wewnętrzny kontener na zdjęcia z galerii.*/
+.content-carrousel{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  float: right;
+  animation: rotar 40s infinite linear;
+  transform-style: preserve-3d;
+}
+
+/*Jeśli kursor na elemencie klasy 'content-carrousel'.*/
+.content-carrousel:hover{
+  /*Animacja zostaje zatrzymana.*/
+  animation-play-state: paused;
+}
+
+/*Figury w kontenerze klasy 'content-carrousel'.*/
+.content-carrousel figure{
+  width: 100%;
+  height: 140px;
+  border: 1px solid #4d444d;
+  overflow: hidden;
+}
+
+/*Pierwsze zdjęcie.*/
+.content-carrousel figure:nth-child(1){
+  transform: rotateY(0deg) translateZ(530px);
+}
+/*Drugie zdjęcie.*/
+.content-carrousel figure:nth-child(2){
+  transform: rotateY(30deg) translateZ(530px);
+}
+/*Trzecie zdjęcie.*/
+.content-carrousel figure:nth-child(3){
+  transform: rotateY(60deg) translateZ(530px);
+}
+/*czwarte zdjęcie.*/
+.content-carrousel figure:nth-child(4){
+  transform: rotateY(90deg) translateZ(530px);
+}
+/*Piate zdjęcie.*/
+.content-carrousel figure:nth-child(5){
+  transform: rotateY(120deg) translateZ(530px);
+}
+/*Szóste zdjęcie.*/
+.content-carrousel figure:nth-child(6){
+  transform: rotateY(150deg) translateZ(530px);
+}
+/*Siódme zdjęcie.*/
+.content-carrousel figure:nth-child(7){
+  transform: rotateY(180deg) translateZ(530px);
+}
+/*Osme zdjęcie.*/
+.content-carrousel figure:nth-child(8){
+  transform: rotateY(210deg) translateZ(530px);
+}
+/*Dziewiąte zdjęcie.*/
+.content-carrousel figure:nth-child(9){
+  transform: rotateY(240deg) translateZ(530px);
+}
+/*Dziesiąte zdjęcie.*/
+.content-carrousel figure:nth-child(10){
+  transform: rotateY(270deg) translateZ(530px);
+}
+/*Jedenaste zdjęcie.*/
+.content-carrousel figure:nth-child(11){
+  transform: rotateY(300deg) translateZ(530px);
+}
+/*Dwunaste zdjęcie.*/
+.content-carrousel figure:nth-child(12){
+  transform: rotateY(330deg) translateZ(530px);
+}
+
+/*Klasa pojedynczych figur ze zdjęciami.*/
+.shadow{
+  position: absolute;
+  width: 300px;
+  box-shadow: 0px 0px 20px 0px #000;
+  border-radius: 2px;
+  display: block;
+}
+
+/*Zdjęcia w klasie 'content-carrousel'. */
+.content-carrousel img{
+  transform: scale(1.1);
+  image-rendering: auto;
+  width: 100%;
+  height: 100%;
+}
+
+/*CSS do wielu plików jednocześnie. */
+
+/*Ciała stron game.html, images.html i characters.html.*/
+#gameBody, #imagesBody, #charactersBody {
+  color: #209781;
+  height: 100vh;
+}
+
+/*Przycisk powrotu do choiceMenu.html.*/
+.button {
+  /*Ustawiamy obramowanie.*/
+  border: 4px solid #51c8b2;
+  border-radius: 4px;
+  /*Ustawiamy jasność.*/
+  filter: brightness(70%);
+  font-size: 30px;
+  /*Tekst, który wyjdzie poza przycisk niewidoczny.*/
+  overflow: hidden;
+  /*Parametry położenia.*/
+  display: block;
+  margin: 3px;
+  top: 15%;
+  text-align: center;
+  position: absolute;
+  right: 25%;
+  width: 200px;
+  /*Perspektywa, z której widzimy przycisk.*/
+  perspective: 400px;
+  /*Odbicie pod przyciskiem*/
+  -webkit-box-reflect: below 0px
+  -webkit-gradient(linear, left top, left bottom,
+    from(transparent), color-stop(40%, transparent),
+    to(rgba(255, 255, 255, 0.3)));
+}
+
+/*Kontener na tekst w przycisku.*/
+.button span {
+  /*Położenie tekstu.*/
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 200px;
+  /*Czas przejścia.*/
+  transition: 0.3s ease-in-out all;
+  /*Wysokość przejścia.*/
+  transform-origin: 50% 0;
+  /*Styl przejścia.*/
+  transform-style: preserve-3d;
+  background-color: #646875;
+  color: #51c8b2;
+}
+
+/*Kontener na tekst w przycisku w końcowej fazie.*/
+.button span:after{
+  display: block;
+  /*Dopisujemy tekst podany w htmlu jako data-title.*/
+  content: attr(data-title);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s ease-in-out all;
+  transform-origin: 50% 0;
+  transform: translate3d(0px, 100%, 0px) rotateX(-90deg);
+  background-color: #646875;
+  color: #51c8b2;
+  width: 100%;
+}
+
+/*Kontener na tekst w przycisku, gdy kursor na nim.*/
+.button:hover span {
+  transform: translate3d(0px, 0px, 0px) rotateX(90deg);
+}
+
+/* CSS z animacjami.
+Tworzymy animację za pomocą reguły keyframes.*/
+
+
+/*Ptak cofa się do pierwszej klatki.*/
+@keyframes fly-cycle {
+  100% {
+    background-position: -900px 0;
+  }
+}
+
+/*Pierwsza animacja lotu.*/
+@keyframes fly-right-one {
+  0% {
+    transform: scale(0.3) translateX(-10vw);
+  }
+  10% {
+    transform: translateY(2vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    transform: translateY(0vh) translateX(30vw) scale(0.5);
+  }
+  30% {
+    transform: translateY(4vh) translateX(50vw) scale(0.6);
+  }
+  40% {
+    transform: translateY(2vh) translateX(70vw) scale(0.6);
+  }
+  50% {
+    transform: translateY(0vh) translateX(90vw) scale(0.6);
+  }
+  60% {
+    transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+  100% {
+    transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+}
+
+/*Druga animacja lotu.*/
+@keyframes fly-right-two {
+  0% {
+    transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+  }
+  10% {
+    transform: translateY(0vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    transform: translateY(-4vh) translateX(30vw) scale(0.6);
+  }
+  30% {
+    transform: translateY(1vh) translateX(50vw) scale(0.45);
+  }
+  40% {
+    transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+  }
+  50% {
+    transform: translateY(0vh) translateX(90vw) scale(0.45);
+  }
+  51% {
+    transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+  100% {
+    transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+}
+
+/*Napis przesuwa się do góry.*/
+@keyframes up {
+  100% {
+    /*Ustawiamy położenie tytułu na położenie początkowe.*/
+    transform: translateX(0);
+  }
+}
+
+/*Zmieniamy położenie oraz widoczność literek w napisie 'clickToStart'.*/
+@keyframes animateOverlay {
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+/*Obracamy obazki o 360 stopni.*/
+@keyframes rotar {
+  from{
+    transform: rotateY(0deg);
+  } to{
+    transform: rotateY(360deg);
+  }
+}

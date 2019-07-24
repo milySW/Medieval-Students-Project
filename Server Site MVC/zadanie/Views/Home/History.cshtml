@@ -1,0 +1,82 @@
+﻿
+@model zadanie.Models.HistoryViewModel
+@{
+    ViewData["Title"] = "History";
+}
+
+<!--Strona z historią logowania.-->
+<body class="register-table history">
+    <!-- Formularz kontaktowy-->
+    @using (Html.BeginForm("History", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div>
+            <p class="history-label info">Number of logs to remove</p>
+        </div>
+
+        <div class="form-horizontal history-label">
+
+            <table class="long-table">
+                <tr>
+                    <!--Okno na liczbę wpisów, które chcemy usunąć.-->
+                    <td class="history-info"> @Html.TextBoxFor(model => model.LogsToRemove, new { @class = "form-control", @id = "history-info" })</td>
+                    <!--Komunikat z błędem jeżeli input zły.-->
+                    <td class="td-with-small-margin">@Html.ValidationMessageFor(m => m.LogsToRemove, "", new { @class = "error info" })</td>
+                    @{
+                        // Jeśli inpu wykracza po za przedziały listy.
+                        if (ViewBag.ValidInput == false)
+                        {
+                            <td class="td-with-small-margin">
+                                <p class="info">Number is out of range</p>
+                            </td>
+                        }
+                        // Jeżeli użytkownik próbuje usunąć sesję, na której jest aktualnie zalogowany.
+                        @if (ViewBag.NoIdea == "NoIdeaWhatIShouldTypeHere")
+                        {
+                            <td class="td-with-small-margin">
+                                <p class="info">Cannot remove current log</p>
+                            </td>
+                        }
+                    }
+                </tr>
+                <tr>
+                    <td>
+                        <div id="history-button">
+                            <input type="submit" value="Submit" class="btn btn-success" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            @{
+                // Wczytujemy wszystkie wpisy z historii.
+                string query = @"SELECT LoginHistory.DateOfLogging, Accounts.Nick FROM LoginHistory INNER JOIN Accounts ON LoginHistory.UserID = Accounts.ID";
+                using (SqlConnection connection = new SqlConnection(@"Data Source=LAPTOP-HPD9G79T; database=MedievalStudents; Trusted_Connection=yes"))
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        connection.Open();
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                <p class="info">@reader[1] @reader[0]</p>
+                            }
+
+                            reader.Close();
+
+                        }
+                        connection.Close();
+                    }
+                  }
+                }
+        </div>
+
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    }
+</body>

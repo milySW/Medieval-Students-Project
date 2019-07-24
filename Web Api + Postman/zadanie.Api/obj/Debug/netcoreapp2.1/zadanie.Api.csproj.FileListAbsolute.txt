@@ -1,0 +1,15 @@
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\bin\Debug\netcoreapp2.1\zadanie.Api.deps.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\bin\Debug\netcoreapp2.1\zadanie.Api.runtimeconfig.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\bin\Debug\netcoreapp2.1\zadanie.Api.runtimeconfig.dev.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\bin\Debug\netcoreapp2.1\zadanie.Api.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.csprojAssemblyReference.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.RazorAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.RazorAssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.AssemblyInfoInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.AssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\bin\Debug\netcoreapp2.1\zadanie.Api.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\obj\Debug\netcoreapp2.1\zadanie.Api.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab6\zadanie\zadanie.Api\bin\Debug\netcoreapp2.1\zadanie.Api.xml

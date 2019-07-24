@@ -1,0 +1,87 @@
+﻿@model List<CharacterViewModel>
+@{
+    ViewData["Title"] = "Market";
+}
+<!--Strona umożliwiająca zakup skina do postaci.-->
+
+<body id="charactersBody">
+    @using (Html.BeginForm("Market", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <h1 id="titleText">Market</h1>
+        <section class="charactersSection">
+            <!--Kontener na zdjęcia postaci.-->
+            <div class="container">
+                @{
+                    var loopCounter = 0;
+                    var pass = 0;
+                    List<int> listOfCosts = new List<int> { 2000, 2100, 1900, 2200, 2400, 1800 };
+                    List<int> listOfSkins = new List<int> {0, 0, 0, 0, 0, 0};
+
+                    @if (ViewBag.CurrentUser == true)
+                    {
+                        string query = @"SELECT * FROM CharacterSkins WHERE PlayerID = (SELECT ID FROM AvailablePoints WHERE AvailablePoints.Nick = '" + @ViewBag.UserName.ToLower() + "')";
+                        using (SqlConnection connection = new SqlConnection(@"Data Source=LAPTOP-HPD9G79T; database=MedievalStudents; Trusted_Connection=yes"))
+                        {
+                            using (SqlCommand command = new SqlCommand(query, connection))
+                            {
+                                connection.Open();
+                                using (SqlDataReader reader = command.ExecuteReader())
+                                {
+                                    while (reader.Read())
+                                    {
+                                        listOfSkins[0] = Int32.Parse(reader[1].ToString());
+                                        listOfSkins[1] = Int32.Parse(reader[2].ToString());
+                                        listOfSkins[2] = Int32.Parse(reader[3].ToString());
+                                        listOfSkins[3] = Int32.Parse(reader[4].ToString());
+                                        listOfSkins[4] = Int32.Parse(reader[5].ToString());
+                                        listOfSkins[5] = Int32.Parse(reader[6].ToString());
+                                    }
+
+                                    reader.Close();
+
+                                }
+                                connection.Close();
+                            }
+                        }
+                    }
+                    
+                    foreach (var character in Model)
+                    {
+                        @if (loopCounter % 2 == 1)
+                        {
+                            <!--Kontener na postać zajmującą 1/3 strony przy max. rozmiarze.-->
+                <div class="col-sm-6 col-md-6">
+                    @if (listOfSkins[pass] == 0)
+                    {
+                        <img class="skin-for-sale" src="@Url.Content(character.Photo)" alt="@character.CharacterClass" />
+                    }
+                    else
+                    {
+                        <img src="@Url.Content(character.Photo)" alt="@character.CharacterClass" />
+                    }
+                    <h3>
+                        @character.CharacterClass
+                    </h3>
+                    @if (ViewBag.CurrentUser == true && listOfSkins[pass] == 0)
+                    {
+                        <div id="market-button">
+                            <input type="submit" name="com" value="Purchase for @listOfCosts[pass] points" class="btn btn-success" />
+                        </div>
+                    }
+                    else if (ViewBag.CurrentUser == true)
+                    {
+                        <div id="market-button">
+                            <input type="submit" name="com" value="Purchased" class="btn btn-success" />
+                        </div>
+                    }
+                </div>
+                            pass++;
+                        }
+                        loopCounter++;
+                    }
+                }
+            </div>
+        </section>
+     }
+</body>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Ustawiamy kodowanie tak, aby czytało polskie znaki.-->
+    <meta charset="utf8"/>
+    <!--Link do źródła z biblioteką jQuery.-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <!--Ciało strony.-->
+  <body id="indexBody">
+    <!--Nagłówek.-->
+    <header id="main-header">
+      <div class="container" >
+        <div class="title-container">
+          <!--Tytuł strony w nagłówku.-->
+          <title id="indexTitle">Medieval Students</title>
+          <!--Ścieżka do skryptu w CSS.-->
+          <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        </div>
+      </div>
+      <!--Kontener na napis 'Click to enter.'-->
+      <div id="hide">
+        <a id="clickToStart">Click to enter</a>
+      </div>
+      <!--Kontener z pierwszym ptakiem.-->
+      <div class="bird-container bird-container--one">
+  		    <div class="bird bird--one"></div>
+      </div>
+      <!--Kontener z drugim ptakiem.-->
+  	  <div class="bird-container bird-container--two">
+  		    <div class="bird bird--two"></div>
+  	  </div>
+      <!--Kontener z trzecim ptakiem.-->
+  	  <div class="bird-container bird-container--three">
+  		    <div class="bird bird--three"></div>
+  	  </div>
+      <!--Kontener z czwartym ptakiem.-->
+  	  <div class="bird-container bird-container--four">
+  		    <div class="bird bird--four"></div>
+  	  </div>
+    </header>
+    <!--Kontener ze zdjęciem do odtwarzacza muzyki.-->
+    <div id="soundOnOff"></div>
+    <!--Jednorazowy odtwarzacz muzyki. Potrzebny do obejścia blokady
+    na autostart muzyki na FF i IE. UWAGA! gdy autoodwarzanie mimo to nie działa
+     na FF należy wyłączyć w ustawieniach opcję odpowiedzialną za blokadę.-->
+    <embed id="autoplayWorkaround" src="Sounds/background.ogg" type="audio/ogg" hidden = "true">
+    <!--Odtwarzacz muzyki.-->
+    <audio id="musicBackground" controls loop hidden = "true">
+      <!--Źródło do pliku z muzyką.-->
+      <source src="Sounds/background.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <!--Ścieżka do skryptu w JS.-->
+    <script src="js/script.js"></script>
+  </body>
+</html>

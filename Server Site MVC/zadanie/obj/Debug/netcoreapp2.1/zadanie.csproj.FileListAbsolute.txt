@@ -1,0 +1,194 @@
+C:\Users\Milosz\source\repos\zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.deps.json
+C:\Users\Milosz\source\repos\zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.json
+C:\Users\Milosz\source\repos\zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.dev.json
+C:\Users\Milosz\source\repos\zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\source\repos\zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\source\repos\zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.dll
+C:\Users\Milosz\source\repos\zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cache
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfoInputs.cache
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfo.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.input.cache
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.output.cache
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorCoreGenerate.cache
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cache
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cs
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\source\repos\zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CopyComplete
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.deps.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.dev.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csprojAssemblyReference.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfoInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.input.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.output.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorCoreGenerate.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CopyComplete
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetAllCharacters.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Links.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetListOfClasses.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetCharacterByClass.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\CreateUser.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\UserProfileData.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\bin\Debug\netcoreapp2.1\credentials.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab4\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\credentials.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.deps.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.dev.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csprojAssemblyReference.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfoInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.input.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.output.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorCoreGenerate.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\CreateUser.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetAllCharacters.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetCharacterByClass.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetListOfClasses.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Links.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\UserProfileData.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CopyComplete
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Market.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\credentials.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\zadanie.deps.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.dev.json
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.csprojAssemblyReference.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfoInputs.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.input.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.output.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorCoreGenerate.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\CreateUser.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetAllCharacters.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetCharacterByClass.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetListOfClasses.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Links.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Market.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\UserProfileData.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cache
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cs
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Downloads\Programowanie\Kredek\milosz_gajowczyk\Lab5\Zadanie\StronaSerwerowa+SQL\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CopyComplete
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\credentials.json
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\zadanie.deps.json
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.json
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\zadanie.runtimeconfig.dev.json
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.dll
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\bin\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.csprojAssemblyReference.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorAssemblyInfo.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfoInputs.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.AssemblyInfo.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.input.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.TagHelpers.output.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorCoreGenerate.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\CreateUser.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetAllCharacters.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetCharacterByClass.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\GetListOfClasses.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Links.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Market.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Home\UserProfileData.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cache
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.RazorTargetAssemblyInfo.cs
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.Views.pdb
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.dll
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.pdb
+C:\Users\Milosz\Desktop\Projekty\C#\Medieval Students Server Site\zadanie\obj\Debug\netcoreapp2.1\zadanie.csproj.CopyComplete

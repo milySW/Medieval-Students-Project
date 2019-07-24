@@ -1,0 +1,26 @@
+﻿<link href="~/css/site.css" rel="stylesheet" type="text/css" />
+<div class="form-horizontal">
+
+    <!--Strona tytułowa-->
+
+    <div class="form-group">
+        <div class="col-md-12">
+            <header>
+                <div class="title-container">
+                    <h1 id="indexTitle">
+                        Medieval Students User Panel
+                    </h1>
+                </div>
+            </header>
+            <div class="jumbotron" id="indexLinks">
+                <!-- Strona główna-->
+                <ul id="links">
+                    <li>@Html.ActionLink("Links", "Links", "Home")</li>
+                    <li>@Html.ActionLink("Characters", "GetAllCharacters", "Home")</li>
+                    <li>@Html.ActionLink("List of characters", "GetListOfClasses", "Home")</li>
+                    <li>@Html.ActionLink("Market", "Market", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

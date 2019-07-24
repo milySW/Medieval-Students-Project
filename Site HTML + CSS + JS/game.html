@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Ustawiamy kodowanie tak, aby czytało polskie znaki.-->
+		<meta charset="utf-8">
+		<!--Link do źródła z biblioteką jQuery.-->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--Ścieżka do skryptu w CSS.-->
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<!--Ciało strony.-->
+	<body id = "gameBody">
+		<!--Nagłówek z tytułem.-->
+		<header>
+			<h1>Medieval Cards</h1>
+			<p>Based on - <a href="https://github.com/milySW/C-Game" target="_blank">Medieval Students game.</a></p>
+		</header>
+		<!--Kontener z przyciskiem powrotu do menu.-->
+		<div class="button noBootstrapButton">
+			<span data-title="Fare-thee-well !">Forsake</span>
+		</div>
+		<!--Główna treść strony.-->
+		<main>
+			<!--Samodzielna część strony.-->
+			<article>
+				<!--Kontener na karty do gry.-->
+				<div class="board">
+
+					<div class="card" id="c0"></div>
+					<div class="card" id="c1"></div>
+					<div class="card" id="c2"></div>
+					<div class="card" id="c3"></div>
+
+					<div class="card" id="c4"></div>
+					<div class="card" id="c5"></div>
+					<div class="card" id="c6"></div>
+					<div class="card" id="c7"></div>
+
+					<div class="card" id="c8"></div>
+					<div class="card" id="c9"></div>
+					<div class="card" id="c10"></div>
+					<div class="card" id="c11"></div>
+
+	        <div class="card" id="c12"></div>
+					<div class="card" id="c13"></div>
+					<div class="card" id="c14"></div>
+					<div class="card" id="c15"></div>
+
+	        <div class="card" id="c16"></div>
+					<div class="card" id="c17"></div>
+					<div class="card" id="c18"></div>
+					<div class="card" id="c19"></div>
+
+					<!--Kontener z punktacją.-->
+					<div class="score">Moves: 0</div>
+
+				</div>
+
+				<!--Kontener z przyciskiem 'Play again'.-->
+				<div class="restartDiv">
+					<p id="restart">Play again</p>
+				</div>
+				
+			</article>
+		</main>
+		<!--Kontener  działający jako size-detector.-->
+		<div id="device-size-detector">
+	    <div id="xs" class="d-block d-sm-none"></div>
+	    <div id="sm" class="d-none d-sm-block d-md-none"></div>
+	    <div id="md" class="d-none d-md-block d-lg-none"></div>
+	    <div id="lg" class="d-none d-lg-block d-xl-none"></div>
+	    <div id="xl" class="d-none d-xl-block"></div>
+		</div>
+		<!--Ścieżka do skryptu w JS.-->
+		<script src="js/script.js"></script>
+	</body>
+</html>

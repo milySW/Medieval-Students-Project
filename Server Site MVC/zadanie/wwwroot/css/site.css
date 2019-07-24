@@ -1,0 +1,281 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+	font-family: Monotype Corsiva, serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+	background: #26282E;
+	overflow: hidden;
+	color: white;
+	min-height: 100vh;
+	display: flex;
+}
+
+a{
+	color: white;
+}
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+/*Odwiedzony link z tagu 'a'.*/
+a:visited{
+  color: white;
+}
+
+/*Link z tagu 'a', gdy jest na nim kursor.*/
+a:hover{
+  color: #E9B64A;
+}
+
+/*Link z tagu 'a' w trakcie kliknięcia.*/
+a:active{
+  color: white;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/*Napis w nagłówku na stronie tytułowej.*/
+#indexTitle
+{
+	/*Ustawiamy prawy margines.*/
+	/*Wyświetl jako blok elementów.*/
+	display: inline-block;
+	/*Wielkość czcionki*/
+	font-size: 5vw;
+	color: #B99F7B;
+	/*Wysokość, na której jest nasz tytuł*/
+	line-height: 3.77;
+	/*Ustawiamy położenie elementu na stosie innych elementów.*/
+	z-index: 1;
+	/*Ustawiamy cieniowanie.*/
+	text-shadow: 0 1px 0 #aaaaaa,
+	0 2px 0 #090909,
+	0 3px 0 #000000,
+	0 4px 0 #090909,
+	0 5px 0 #000000,
+	0 6px 1px rgba(0, 0, 0, 0.1),
+	0 0 5px rgba(0, 0, 0, 0.1),
+	0 1px 3px rgba(0, 0, 0, 0.3),
+	0 3px 5px rgba(0, 0, 0, 0.2),
+	0 5px 10px rgba(0, 0, 0, 0.25),
+	0 10px 10px rgba(127, 0, 0, 0.6),
+	0 20px 20px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	width: 100%;
+	/*Tło ma pokryć cały ekran (Safari i Chrome).*/
+	text-align: center;
+	background: url("../images/indexBackground.jpg");
+	background-size: 100%;
+	border: 4px solid #474A55;
+	border-radius: 20px;
+}
+
+/*Kontener z linkami na stronie głównej*/
+#indexLinks
+{
+	background-color: #474A55;
+	font-size: 2.9rem;
+	height: 18.5rem;
+}
+
+/*Linki na stronie głównej.*/
+#links
+{
+	transform: translateY(-22%);
+}
+
+/*Link do gita na stronie Contact.cshtml*/
+#gitLink
+{
+	font-size: 2.5rem;
+}
+
+/*Ciało strony getAllCharacters.cshtml*/
+#charactersBody
+{
+	overflow: auto;
+	text-align: center;
+}
+
+/*Nagłówek strony getAllCharacters.cshtml*/
+#titleText
+{
+	transform: translateX(3%);
+	font-size: 7rem;
+}
+
+/*Sekcja z postaciami na stronie getAllCharacters.cshtml*/
+.charactersSection {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*Zdjęcia w sekcji 'charactersSection'.*/
+.charactersSection img {
+  width: 50%;
+  transform: scale(0.7)
+}
+
+/*Podpisy pod figurami w sekcji 'charactersSection'.*/
+.charactersSection figcaption {
+  margin-top: 25px;
+}
+
+/*Kontener z historią postaci na stronie GetCharacterByClass.cshtml*/
+#story
+{
+	margin-top: 3%;
+	font-size: 3rem;
+	border: 4px solid #474A55;
+	border-radius: 20px;
+	background-color: #474A55;
+}
+
+/*Rozmiar dla wszystkich zwykłych linków*/
+.allLinks
+{
+	font-size: 2rem;
+}
+
+/*Okna na dane użytkownika.*/
+.user-info
+{
+	background-color: black;
+	width: 25vw;
+}
+
+
+/*Napis wyskakujący przy złym inpucie.*/
+.input-validation-error
+{
+	width: 20vw;
+}
+
+/*Napis pojawiający się, gdy wpisane hasło jest błędne*/
+#Password-error
+{
+	transform: translateX(2vw);
+}
+
+/* Informacja z błędem na stronie z uzupełnianiem danych*/
+.td-with-small-margin
+{
+	transform: translateX(2vw);
+	color: red;
+}
+
+/*Ciało strony rejstrowania.*/
+.body-content, .register-table
+{
+	transform: translateY(2vw);
+}
+
+/*Zdjecie profilowe*/
+#profile-image
+{
+	width: 160px;
+	height: 225px;
+	border: 4px solid #474A55;
+	border-radius: 20px;
+	float:left;
+	background-color: black;
+}
+
+/*Naza użytkownika*/
+#user-name
+{
+	width: 10px;
+	text-align: center;
+}
+
+/*Dane użytkownika*/
+.user-data
+{
+	float: left;
+	margin-bottom: 20vh;
+
+}
+
+/*Większość tekstu na każdej ze stron.*/
+.info
+{
+	font-size: 2rem;
+}
+
+/*Ostatnia zakładka na navbarze.*/
+.last-children{
+	right: 5%;
+}
+
+/*Ciało strony History.cshtml*/
+.history
+{
+	overflow: auto;
+}
+
+/*Napis nad oknem do wprowadzenia danych na stronie History.cshtml*/
+.history-label
+{
+	float: left;
+	height: 10%;
+	width: 100%;
+}
+
+/*Okno na liczbę wpisów do usunięcia.*/
+#history-info
+{
+	background-color: black;
+	width: 185px;
+}
+
+/*Przycisk na stronie History.cshtml*/
+#history-button
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/*Tekst na stronie About.cshtml*/
+#about-text
+{
+	width: 370px;
+	overflow: auto;
+}
+
+.skin-for-sale
+{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
